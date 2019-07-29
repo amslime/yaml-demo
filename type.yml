@@ -1,0 +1,10 @@
+
+subject: test_schema
+new_types:
+- !my_type
+  id: 0
+  stat: !pair_number [ 0, 1 ]
+- !<!my_type>
+  id: 1
+  stat: !pair_number [10, 11]
+a_pair_number: !pair_number [ 3, 4]
